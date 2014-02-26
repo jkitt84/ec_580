@@ -1,0 +1,1 @@
+"./wdt_isr.obj" "./unused_interrupts.obj" "./main.obj" "./io_wdt_initialization.obj" "./button_isr.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 

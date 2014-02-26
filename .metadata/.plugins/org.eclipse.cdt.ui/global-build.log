@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project ec450_record_and_PLAY_green ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../button_isr.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.5/bin/cl430" -vmsp --abi=eabi -g --include_path="C:/ti/ccsv5/ccs_base/msp430/include" --include_path="C:/ti/ccsv5/tools/compiler/msp430_4.1.5/include" --advice:power=all --define=__MSP430G2553__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal --preproc_with_compile --preproc_dependency="button_isr.pp"  "../button_isr.c"
+'Finished building: ../button_isr.c'
+' '
+'Building target: ec450_record_and_PLAY_green.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv5/tools/compiler/msp430_4.1.5/bin/cl430" -vmsp --abi=eabi -g --advice:power=all --define=__MSP430G2553__ --diag_warning=225 --display_error_number --diag_wrap=off --printf_support=minimal -z --stack_size=80 -m"ec450_record_and_PLAY_green.map" --heap_size=80 -i"C:/ti/ccsv5/ccs_base/msp430/include" -i"C:/ti/ccsv5/tools/compiler/msp430_4.1.5/lib" -i"C:/ti/ccsv5/tools/compiler/msp430_4.1.5/include" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="ec450_record_and_PLAY_green_linkInfo.xml" --rom_model -o "ec450_record_and_PLAY_green.out"  "./wdt_isr.obj" "./unused_interrupts.obj" "./main.obj" "./io_wdt_initialization.obj" "./button_isr.obj" -l"libc.a" "../lnk_msp430g2553.cmd" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: ec450_record_and_PLAY_green.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project ec450_record_and_PLAY_green ****
+
+"C:\\ti\\ccsv5\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for `all'.
+
+**** Build Finished ****
